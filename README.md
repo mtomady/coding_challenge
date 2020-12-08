@@ -31,20 +31,76 @@ The Treatment Selector will be used by two people:
  * Patients - to select a treatment
  * Admins - to translate the treatments
 
-Patients will use the TreatmentSelector when they go to a clinic. They will
-pick a treatment from a pre-defined list, enter their name, and confirm their
-choice.
+Patients will use the TreatmentSelector when they go to a clinic. They should
+see a website that provides them with a list of treatments. They will pick a
+treatment from a pre-defined list, enter their name, and confirm their choice.
 
 Admins must be able to provide translations (into French or Malagasy) of the
 treatment names. Patients will see the names of the treatments in the language
 that their browser is set to.
 
-You are welcome to use any data source as a list of treatments. We can suggest
-the [Britannica List of medical tests and diagnostic procedures](https://www.britannica.com/topic/list-of-medical-tests-and-diagnostic-procedures-2074273),
-but you're welcome to find your own sources. Treatments should be grouped into
-categories, and patients can see these categories. You do not need to translate
-the treatment names into French or Malagasy - that is up to the Admins :)
+A list of treatments in two categories is provided below. Patients can see
+these categories. You do not need to translate the treatment names into French
+or Malagasy - that is up to the Admins :)
 
 As the list of treatments is constantly changing, there should be some
 mechanism to periodically repopulate the list of treatments (whether nightly,
 or weekly, or monthly).
+
+You can use these list of treatments broken into two categories:
+
+ 1. Diagnostics
+
+    * angiocardiography
+    * angiography
+    * brain scanning
+    * cholecystography
+    * echocardiography
+    * mammography
+    * myelography
+    * prenatal testing
+    * ultrasound
+    * urography
+
+ 2. Examinations
+
+    * auscultation
+    * autopsy
+    * biopsy
+    * bronchoscopy
+    * cardiac catheterization
+    * colposcopy
+    * endoscopy
+    * esophagogastroduodenoscopy
+    * gynecological examination
+    * laparoscopy
+    * mediastinoscopy
+    * nasopharyngolaryngoscopy
+    * palpation
+    * percussion
+    * Rubin’s test
+
+## Acceptance Critiera
+
+You can use these acceptance criteria to help guide you in building the project:
+
+AC1:
+
+As an Admin
+I can see the list of treatments in the system
+
+AC2:
+
+As an Admin
+I can provide translations for each treatment into Malagasy or French
+
+AC3:
+
+As a User
+I can see the list of all the treatments, enter my name, and select one
+and the treatments are in the language that my browser is set to (English, French, or Malagasy)
+
+AC4:
+
+As a User
+I can select a category, and then see all the treatments that belong to that category.
