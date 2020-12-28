@@ -4,10 +4,10 @@ We want to build an application that lets a patient who arrives at a clinic
 select which treatment they want to receive. Your task is to build this
 application!
 
-You are welcome to use any technologies you like, with the only requirement
-that the backend is built using Ruby. All the other technical choices are yours
-(ie. database, framework, frontend). It's good to keep your decisions in mind,
-and we may ask why you chose one technology over another.
+You are welcome to use any technologies you like, and you can code in whichever
+programming language you choose. All the technical choices are yours (ie.
+language, database, framework, frontend). It's good to keep your decisions in
+mind, and we may ask why you chose one technology over another.
 
 Some of these requirements may be vague. You are welcome to make your own
 assumptions or you can contact us for clarification. If you do make your own
